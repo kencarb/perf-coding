@@ -6,4 +6,4 @@ Due consideration must be given to the namespace being managed. In this respect,
 
 The CLI create commands have associated latency and are not good Lambda candidates. An alternate approach might be to automate the snapshot creation separately in the live region, then copy those snapshots to a recovery region later.
 
-With an appropriate bash wrapper, the Python script may be run from the EC2 server via crontab. The code given below is nominally Python 2.7 version, but should work with version 3.n as well: 
+With an appropriate bash wrapper, the Python script may be run from the EC2 server via crontab. The code given below is nominally Python 2.7 version, but should work with version 3.n as well:  [ebs_rds_snap_mgmt.py](https://github.com/kencarb/perf-coding/blob/master/ebs_rds_snap_mgmt.py)
