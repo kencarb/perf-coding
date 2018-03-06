@@ -5,7 +5,7 @@ This is somewhat conceptual and might be better accomplished by manipulating CFT
 * Manipulating ASG (auto scaling group) parameters
 * Ability to stop a running RDS – this appears to also preserve the DB state without having to drop all connections and perform a snapshot
 
-The CLI commands are not blocking, and thus may be implemented via Lambda. The code given below is nominally Python 2.7 version, but should work with version 3.n as well:
+The CLI commands are non-blocking, and thus may be implemented via Lambda. The code given below is nominally Python 2.7 version, but should work with version 3.n as well:
 
 ```
 import os
