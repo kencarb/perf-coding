@@ -1,5 +1,5 @@
-# perf-coding
-coding for fun and problem solving
+# practical-coding
+coding for interviews and problem solving
 
 # AWS CLI How-to
 Approaches for managing singleton EC2 instances and EBS/RDS snapshots. This code must be integrated with the target environment. That exercise is left to the developer.
